@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 ul {
@@ -35,7 +36,7 @@ body {
   background: var(--light-grey);
   color: var(--white);
   width: 100%;
-  background-color:white;
+  background-color: #ffffff;
   
 }
 
@@ -51,8 +52,6 @@ body {
   margin-left: 4px;  
 }
 
-
-
 .notification {
   position: relative;
   margin: auto;
@@ -67,6 +66,7 @@ body {
 /* MAIN STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .nav {
+  margin-top: 20px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -185,7 +185,69 @@ body {
   transition-delay: 0.9s;
 }
 
+/*END OF NAV SECTION*/
 
+
+.contact-img {
+  height: 30%;  
+  width: 30%;  
+  float: left;
+}
+
+.afternoon-tea-img {
+  
+  margin: 0 auto;
+  width: 30svw;
+  align-items: center;
+}
+section{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+/*Form section*/
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 400px;
+  background: linear-gradient(115deg, #ff6bbb 10%, #655be1 90%);
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.container .text {
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  color: #5146e1;
+  
+}
+
+.container form{
+  padding: 20px;
+  
+}
+.container form .form-row{
+  display: flex;
+  
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  color: #5146e1;
+}
+
+.submit {
+  background-color: #5146e1
+}
 /* CONTACT LINKS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import url("https://fonts.googleapis.com/css?family=Roboto");
