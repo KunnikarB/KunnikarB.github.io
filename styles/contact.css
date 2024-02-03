@@ -185,7 +185,7 @@ body {
   width: 40svw;   
   display: flex;
   flex-shrink: 0; 
-  float: center;
+  margin-left: 100svw;
 }
 
 .afternoon-tea-img {
