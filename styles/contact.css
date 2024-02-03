@@ -263,6 +263,16 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+/*End of form section*/
+
+.centered-image-container {
+  text-align: center;
+}
+.centered-image {
+  width: 50%;
+  max-width: 100%;
+}
+
 
 /* CONTACT LINKS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
