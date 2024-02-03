@@ -18,9 +18,10 @@
     <link rel="stylesheet" href="/styles/contact.css" />
   </head>
   <body>
+    
     <img
       src="/images/iBerry-contact-us.png"
-      style="width: 100svw"
+      style="width: 100svw; display: flex;"
       alt="iBerry
     coffee lover"
     />
@@ -66,74 +67,71 @@
     <img
       class="afternoon-tea-img"
       src="/images/afternoon-tea.jpg"
-      style="margin-top: 40px; margin-bottom: 40px;"
+      style="margin-top: 30px;"
       alt="afternoon-tea"
     />
   </section>
     
     <!--end of header section-->
-   <section>
-    <img class="contact-img" src="/images/iBerry-girl.png" alt="girl photo" />
-  </section>
+   
     
     <!--contact form section-->
-   <section>
+   
     <div class="container">
-      <div class="text">Contact Us</div>
-
-      <form>
-        <table>
-          <tr>
-            <td>Gender</td>
-            <td>
-              <input type="radio" name="initial" checked />Mr.
-              <input type="radio" name="initial" />Mrs.
-              <input type="radio" name="initial" />Ms.
-            </td>
-          </tr>
-          <tr>
-            <td>First Name</td>
-            <td><input type="text" name="fname" /></td>
-          </tr>
-          <tr>
-            <td>Last Name</td>
-            <td><input type="text" name="lname" /></td>
-          </tr>
-          <tr>
-            <td>Mobile</td>
-            <td><input type="text" name="mobile" /></td>
-          </tr>
-
-          <tr>
-            <td>Message</td>
-            <td>
-              <textarea
-                name="message"
-                id="message"
-                cols="16"
-                rows="4"
-              ></textarea>
-            </td>
-          </tr>
-        </table>
-        <a href="#" class="submit">
-          <span>Submit</span>
-      
-        </a>
+      <h1 style="color: #ff6bbb;">Contact Us</h1>
+      <form action="#">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <select id="subject" name="subject">
+              <option value="careers">Careers</option>
+              <option value="experiences">Experiences</option>
+              <option value="promote your business">Promote Your Business</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="message">Message</label>
+          </div>
+          <div class="col-75">
+            <textarea id="message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        
       </form>
     </div>
-  </section>
+    
+  
     <!--end of cotact form section-->
+<section>
+  <img style="width: 50svw;" src="/images/iBerry-girl.png" alt="">
+</section>
+
 
     <!--Footer section-->
-  <section>
-    <img
-      class="logo"
-      src="/images/iBerry-logo.png"
-      style="width: 75px"
-      alt="iBerry logo"
-    />
-  </section> 
+  
     <!--contact section-->
    <section>
     <div class="floating-container">
@@ -160,7 +158,14 @@
     </div>
   </section> 
     <!--end of contact section-->
-
+    <section>
+      <img
+        class="logo"
+        src="/images/iBerry-logo.png"
+        style="width: 10svh"
+        alt="iBerry logo"
+      />
+    </section> 
     <!--footer section-->
     <footer class="page-footer">
       <span>&#169;made by KunnikarB </span>
