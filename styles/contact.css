@@ -42,7 +42,7 @@ body {
   position: fixed;
   display: flex;
   bottom: 35px;
-  margin-left: 15px;  
+  float: left;  
 }
 
 .notification {
@@ -183,9 +183,9 @@ body {
 
 .contact-img {
   width: 40svw;   
-  float: initial;
   display: flex;
   flex-shrink: 0; 
+  margin: 0 auto;
 }
 
 .afternoon-tea-img {
@@ -323,7 +323,7 @@ input[type=submit]:hover {
   width: 100px;
   height: 100px;
   bottom: 0;
-  right: 15px;
+  right: 0%;
   margin: 35px 25px;
 }
 
@@ -394,7 +394,7 @@ input[type=submit]:hover {
 
 .floating-container .float-element .material-icons {
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .floating-container .float-element:nth-child(1) {
@@ -416,15 +416,15 @@ input[type=submit]:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-footer {
   position: fixed;
-  right: 15px;
   bottom: 0;
   display: flex;
   align-items: center;
   padding: 5px;
   color: var(--pink);
+  right: 0%;
 }
 
 .page-footer a {
   display: flex;
-  margin-left: 4px;  
+  float: right;
 }
