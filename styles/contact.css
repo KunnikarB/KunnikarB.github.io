@@ -188,16 +188,6 @@ body {
   flex-shrink: 0; 
 }
 
-.contact-img-25 {
-  width: 25%;
-  float: left;
-}
-
-.contact-img-75 {
-  width: 75%;
-  float: left;
-}
-
 .afternoon-tea-img {
   margin: 0 auto;
   width: 30svw;
