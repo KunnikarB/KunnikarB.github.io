@@ -13,8 +13,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
 }
 
 ul {
@@ -36,16 +35,14 @@ body {
   background: var(--light-grey);
   color: var(--white);
   width: 100%;
-  background-color: #ffffff;
-  
+  background-color: #ffffff;  
 }
 
 .logo {
   position: fixed;
   display: flex;
   bottom: 35px;
-  margin-left: 25px;
-   
+  margin-left: 25px;  
 }
 
 .notification {
@@ -185,24 +182,33 @@ body {
 
 
 .contact-img {
-  height: 30%;  
-  width: 30%;  
-  float: left;
+  width: 40svw;   
+  float: initial;
   display: flex;
-  flex-shrink: 0;
-  
+  flex-shrink: 0; 
+}
+
+.contact-img-25 {
+  width: 25%;
+  float: left;
+}
+
+.contact-img-75 {
+  width: 75%;
+  float: left;
 }
 
 .afternoon-tea-img {
-  
   margin: 0 auto;
   width: 30svw;
   align-items: center;
 }
+
 section{
   margin-top: 30px;
   margin-bottom: 80px;
 }
+
 /*Form section*/
 input[type=text], select, textarea {
   width: 100%;
@@ -224,7 +230,6 @@ input[type=text], select, textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-
 }
 
 input[type=submit] {
@@ -254,15 +259,13 @@ input[type=submit]:hover {
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 6px;
-  
+  margin-top: 6px; 
 }
 
 .col-75 {
   float: left;
   width: 75%;
-  margin-top: 6px;
-  
+  margin-top: 6px; 
 }
 
 /* Clear floats after the columns */
@@ -279,6 +282,7 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
 /* CONTACT LINKS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import url("https://fonts.googleapis.com/css?family=Roboto");
@@ -302,6 +306,7 @@ input[type=submit]:hover {
     opacity: 1;
   }
 }
+
 @keyframes come-in {
   0% {
     -webkit-transform: translatey(100px);
@@ -322,10 +327,6 @@ input[type=submit]:hover {
     opacity: 1;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
 .floating-container {
   position: fixed;
@@ -335,9 +336,11 @@ input[type=submit]:hover {
   right: 25px;
   margin: 35px 25px;
 }
+
 .floating-container:hover {
   height: 300px;
 }
+
 .floating-container:hover .floating-button {
   box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
   -webkit-transform: translatey(5px);
@@ -345,18 +348,22 @@ input[type=submit]:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .floating-container:hover .element-container .float-element:nth-child(1) {
   -webkit-animation: come-in 0.4s forwards 0.2s;
           animation: come-in 0.4s forwards 0.2s;
 }
+
 .floating-container:hover .element-container .float-element:nth-child(2) {
   -webkit-animation: come-in 0.4s forwards 0.4s;
           animation: come-in 0.4s forwards 0.4s;
 }
+
 .floating-container:hover .element-container .float-element:nth-child(3) {
   -webkit-animation: come-in 0.4s forwards 0.6s;
           animation: come-in 0.4s forwards 0.6s;
 }
+
 .floating-container .floating-button {
   position: absolute;
   width: 65px;
@@ -377,6 +384,7 @@ input[type=submit]:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .floating-container .float-element {
   position: relative;
   display: block;
@@ -393,18 +401,22 @@ input[type=submit]:hover {
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
 }
+
 .floating-container .float-element .material-icons {
   vertical-align: middle;
   font-size: 16px;
 }
+
 .floating-container .float-element:nth-child(1) {
   background: #5146e1;
   box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
 }
+
 .floating-container .float-element:nth-child(2) {
   background: #56d8e4;
   box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
 }
+
 .floating-container .float-element:nth-child(3) {
   background: #9f01ea;
   box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
