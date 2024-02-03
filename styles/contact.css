@@ -42,7 +42,7 @@ body {
   position: fixed;
   display: flex;
   bottom: 35px;
-  left: 25px;  
+  right: 25px;  
 }
 
 .notification {
@@ -316,7 +316,7 @@ input[type=submit]:hover {
   width: 100px;
   height: 100px;
   bottom: 0;
-  right: 0%;
+  left: 0%;
   margin: 35px 25px;
 }
 
@@ -414,10 +414,6 @@ input[type=submit]:hover {
   align-items: center;
   padding: 5px;
   color: var(--pink);
-  right: 8px;
+  left: 8px;
 }
 
-.page-footer a {
-  display: flex;
-  margin-left: 8px;
-}
