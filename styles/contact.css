@@ -41,8 +41,8 @@ body {
 .logo {
   position: fixed;
   display: flex;
-  bottom: 35px;
-  float: left;  
+  bottom: 0%;
+  left: 0%;  
 }
 
 .notification {
@@ -181,37 +181,10 @@ body {
 /*END OF NAV SECTION*/
 
 /* Image section*/
-img.ri
-{
-    position: absolute;
-    max-width: 80%;
-    top: 10%;
-    left: 10%;
-    border-radius: 3px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.9);
-}
-
-img.ri:empty
-{
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-@media screen and (orientation: portrait) {
-  img.ri {
-      max-width: 90%;
-  }
-}
-
-@media screen and (orientation: landscape) {
-  img.ri {
-      max-height: 90%;
-  }
+.contact-img {
+  width: 50svw;
+  margin-left: auto;
+  margin-left: auto;
 }
 /*End of image section*/
 
@@ -443,15 +416,15 @@ input[type=submit]:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   display: flex;
   align-items: center;
   padding: 5px;
   color: var(--pink);
-  right: 0%;
+  right: 0px;
 }
 
 .page-footer a {
   display: flex;
-  float: right;
+  margin-left: 4px;
 }
