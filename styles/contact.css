@@ -41,8 +41,8 @@ body {
 .logo {
   position: fixed;
   display: flex;
-  bottom: 0%;
-  left: 0%;  
+  bottom: 35px;
+  left: 25px;  
 }
 
 .notification {
@@ -182,8 +182,11 @@ body {
 
 /* Image section*/
 .contact-img {
+  position: relative;
+  left: auto;
+  right: auto;
   width: 50svw;
-  margin: 0 auto;
+  
 }
 /*End of image section*/
 
@@ -420,10 +423,10 @@ input[type=submit]:hover {
   align-items: center;
   padding: 5px;
   color: var(--pink);
-  right: 0px;
+  right: 8px;
 }
 
 .page-footer a {
   display: flex;
-  margin-left: 4px;
+  margin-left: 8px;
 }
