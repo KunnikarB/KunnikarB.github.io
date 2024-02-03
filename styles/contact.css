@@ -180,20 +180,9 @@ body {
 
 /*END OF NAV SECTION*/
 
-/* Image section*/
-.contact-img {
-  position: relative;
-  left: auto;
-  right: auto;
-  width: 50svw;
-  
-}
-/*End of image section*/
-
 .afternoon-tea-img {
   margin: 0 auto;
   width: 30svw;
-  align-items: center;
 }
 
 section{
