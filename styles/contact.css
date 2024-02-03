@@ -266,11 +266,12 @@ input[type=submit]:hover {
 /*End of form section*/
 
 .centered-image-container {
+  width: 100svw;
   text-align: center;
 }
 .centered-image {
   width: 50%;
-  max-width: 100%;
+
 }
 
 
