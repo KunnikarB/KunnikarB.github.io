@@ -183,8 +183,7 @@ body {
 /* Image section*/
 .contact-img {
   width: 50svw;
-  margin-left: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 /*End of image section*/
 
