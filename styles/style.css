@@ -41,8 +41,8 @@ body {
 
 .logo {
   position: fixed;
-  left: 0%;
-  bottom: 0%;
+  right: 25px;
+  bottom: 35px;
   display: flex;
 }
 
@@ -227,7 +227,7 @@ body {
   width: 100px;
   height: 100px;
   bottom: 0;
-  right: 0;
+  left: 0%;
   margin: 35px 25px;
 }
 
@@ -262,7 +262,7 @@ body {
   position: absolute;
   width: 65px;
   height: 65px;
-  background: #2cb3f0;
+  background: #655be1;
   bottom: 0;
   border-radius: 50%;
   left: 0;
@@ -302,7 +302,7 @@ body {
 }
 
 .floating-container .float-element:nth-child(1) {
-  background: #42A5F5;
+  background: #5146e1;
   box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
 }
 
@@ -320,7 +320,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-footer {
   position: fixed;
-  right: 0px;
+  left: 8px ;
   bottom: 0px;
   display: flex;
   align-items: center;
@@ -328,7 +328,4 @@ body {
   color: var(--pink);
 }
 
-.page-footer a {
-  display: flex;
-  margin-left: 4px;  
-}
+
