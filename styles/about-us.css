@@ -195,6 +195,7 @@ body {
   min-width: 30svh;
   margin-bottom: 20svh;
   margin-top: 20px;
+  margin-left: 5px;
 }
 
 .card-container {
