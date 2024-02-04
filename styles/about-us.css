@@ -190,20 +190,15 @@ body {
 .container {
   display: grid;
   place-items: center;
-  min-width: 100vh;
-  font-weight: 300;
-  margin: 20px;
+  min-width: 100svw;
+  margin-top: 20px;
+  margin-bottom: 20svh;
 }
 
 .card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 100vh;
+  display: inline-block;
+  min-width: 100svw;
   place-items: center;
-  flex-shrink: 0;
-  
 }
 .card {
   max-width: 500px;
@@ -214,7 +209,7 @@ body {
   padding: 10px;
   display: inline-block;
   align-items: baseline;
-  flex-shrink: 0;
+  
 }
 
 .card-h1 {
@@ -237,27 +232,6 @@ body {
   margin-top: 10px; 
 }
 
-.col-25 {
-  float: left;
-  width: 25%;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-}
-
-.row::after {
-  content:"";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width:600px) {
-  .col-25, .col-75{
-    width: 100%;
-  }
-}
 
 .with-love {
   color: #ff6bbb;
@@ -304,6 +278,7 @@ figure:after {
     translateX(calc(var(--hover) * -15%))
     scale(calc(1 + (var(--hover) * 0.2)));
   transition: transform 0.2s;
+  margin-bottom: 100px;
 }
 
 article {
