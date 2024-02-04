@@ -193,6 +193,7 @@ body {
   min-width: 100svw;
   margin:0 auto;
   margin-bottom: 30svh;
+  margin-top: 20px;
   
 }
 
@@ -206,7 +207,8 @@ body {
   min-height: 150px;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
   border-radius: 10px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   display: inline-block;
   align-items: baseline;
