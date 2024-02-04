@@ -190,9 +190,11 @@ body {
 .container {
   display: grid;
   place-items: center;
+  max-width: 500px;
+  max-height: 250px;
   min-width: 100svw;
   margin-top: 20px;
-  margin-bottom: 20svh;
+  margin-bottom: 30svh;
 }
 
 .card-container {
