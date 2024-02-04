@@ -190,8 +190,6 @@ body {
 .container {
   display: grid;
   place-items: center;
-  max-width: 500px;
-  max-height: 250px;
   min-width: 100svw;
   margin-top: 20px;
   margin-bottom: 30svh;
@@ -241,7 +239,7 @@ body {
 }
 
 figure {
-  width: 500px;
+  width: 400px;
   aspect-ratio: 8 / 5;
   --bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
   --accent: hsl(280 80% 40%);
