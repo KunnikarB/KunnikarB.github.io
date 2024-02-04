@@ -239,7 +239,7 @@ body {
 }
 
 figure {
-  width: 500px;
+  width: 450px;
   aspect-ratio: 8 / 5;
   --bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
   --accent: hsl(280 80% 40%);
@@ -273,12 +273,11 @@ figure:after {
   position: absolute;
   left: 20%;
   top: 15%;
-  width: 40%;
+  width: 50%;
   transform:
     translateX(calc(var(--hover) * -15%))
     scale(calc(1 + (var(--hover) * 0.2)));
   transition: transform 0.2s;
-  margin-bottom: 100px;
 }
 
 article {
