@@ -190,16 +190,17 @@ body {
 .container {
   display: grid;
   place-items: center;
-  min-width: 50svw;
+  min-width: 50svh;
   margin-bottom: 20svh;
   margin-top: 20px;
 }
 
 .card-container {
   display: inline-block;
-  min-width: 50svw;
+  min-width: 50svh;
   place-items: center;
-  margin-left: 0%;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 .card {
   width: 500px;
