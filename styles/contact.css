@@ -13,7 +13,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 ul {
@@ -35,14 +35,15 @@ body {
   background: var(--light-grey);
   color: var(--white);
   width: 100%;
-  background-color: #ffffff;  
+  background-color:white;
+  
 }
 
 .logo {
   position: fixed;
-  display: flex;
+  right: 25px;
   bottom: 35px;
-  right: 25px;  
+  display: flex;
 }
 
 .notification {
@@ -179,15 +180,6 @@ body {
 
 /*END OF NAV SECTION*/
 
-.afternoon-tea-img {
-  margin: 0 auto;
-  width: 30svw;
-}
-
-section{
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
 
 /*Form section*/
 input[type=text], select, textarea {

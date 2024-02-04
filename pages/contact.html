@@ -26,11 +26,16 @@
     coffee lover"
     />
     <!--nav menu section-->
-    <a class="notification" href="/index.html">Home Page</a>
-    <a class="notification" href="about-us.html">About Us</a>
-    <a class="notification" href="contact.html">Contact Us</a>
-    <nav class="nav">
-      
+    <section>
+      <a class="notification" href="/index.html">Home Page</a>
+      <a class="notification" href="about-us.html">About Us</a>
+      <a class="notification" href="contact.html">Contact Us</a>
+    </section> 
+
+    <section>
+      <nav class="nav">
+   
+
       <input id="menu" type="checkbox" />
       <label for="menu">iBerry Menu</label>
       <ul class="menu">
@@ -58,20 +63,23 @@
             <i class="fa-solid fa-martini-glass" aria-hidden="true"></i>
           </a>
         </li>
-      </ul>
-      
+      </ul> 
     </nav>
+  </section>
     <!--end of nav menu section--> 
-
   <section>
     <img
-      class="afternoon-tea-img"
       src="/images/afternoon-tea.jpg"
-      style="margin-top: 30px;"
+      style="width: 30svw"
       alt="afternoon-tea"
     />
   </section>
-    
+    <img
+      class="logo"
+      src="/images/iBerry-logo.png"
+      style="width: 75px"
+      alt="iBerry logo"
+    />
     <!--end of header section-->
    
     
@@ -101,13 +109,10 @@
             <label for="subject">Subject</label>
           </div>
           <div class="col-75">
-            <select id="subject" name="subject">
-              <option value="careers">Careers</option>
-              <option value="experiences">Experiences</option>
-              <option value="promote your business">Promote Your Business</option>
-            </select>
+            <input type="text" id="subject" name="subject" placeholder="Your Subject..">
           </div>
         </div>
+        
         <div class="row">
           <div class="col-25">
             <label for="message">Message</label>
@@ -156,14 +161,7 @@
     </div>
   </section> 
     <!--end of contact section-->
-    <section>
-      <img
-        class="logo"
-        src="/images/iBerry-logo.png"
-        style="width: 10svh"
-        alt="iBerry logo"
-      />
-    </section> 
+    
     <!--footer section-->
     <footer class="page-footer">
       <span>&#169;made by KunnikarB </span>
