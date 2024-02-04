@@ -273,7 +273,7 @@ figure:after {
   position: absolute;
   left: 20%;
   top: 15%;
-  width: 60%;
+  width: 40%;
   transform:
     translateX(calc(var(--hover) * -15%))
     scale(calc(1 + (var(--hover) * 0.2)));
