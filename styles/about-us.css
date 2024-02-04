@@ -201,7 +201,7 @@ body {
   place-items: center;
 }
 .card {
-  max-width: 500px;
+  width: 500px;
   min-height: 150px;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
   border-radius: 10px;
@@ -239,7 +239,7 @@ body {
 }
 
 figure {
-  width: 300px;
+  width: 500px;
   aspect-ratio: 8 / 5;
   --bg: hsl(330 80% calc(90% - (var(--hover) * 10%)));
   --accent: hsl(280 80% 40%);
