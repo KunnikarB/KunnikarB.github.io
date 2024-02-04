@@ -68,7 +68,9 @@ body {
 .nav {
   position: relative;
   display: flex;
+  place-items: center;
   justify-content: center;
+  align-items: center;
   max-width: 400px;
   padding-bottom: 20px;
   border-radius: 5px 5px 25px 25px;
@@ -190,14 +192,14 @@ body {
 .container {
   display: grid;
   place-items: center;
-  min-width: 50svh;
+  min-width: 30svh;
   margin-bottom: 20svh;
   margin-top: 20px;
 }
 
 .card-container {
   display: inline-block;
-  min-width: 50svh;
+  min-width: 30svh;
   place-items: center;
   margin-left: 10px;
   margin-right: 20px;
