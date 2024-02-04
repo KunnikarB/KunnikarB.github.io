@@ -191,8 +191,9 @@ body {
   display: grid;
   place-items: center;
   min-width: 100svw;
-  margin-top: 20px;
+  margin:0 auto;
   margin-bottom: 30svh;
+  
 }
 
 .card-container {
