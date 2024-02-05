@@ -179,8 +179,9 @@ body {
 }
 /* END OF MAIN STYLES */
 .container {
-  display: block;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
   margin-left: 10px;
 }
@@ -194,6 +195,12 @@ body {
   display: inline-block;
   align-items: center;
   margin-left: 0%;
+  margin-bottom: 30svh;
+  
+}
+
+.block {
+  display: block;
 }
 /* MAIN BODY SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
