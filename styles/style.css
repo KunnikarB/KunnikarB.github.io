@@ -195,13 +195,9 @@ body {
   display: inline-block;
   align-items: center;
   margin-left: 0%;
-  margin-bottom: 30svh;
-  
+  margin-bottom: 30svh; 
 }
 
-.block {
-  display: block;
-}
 /* MAIN BODY SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
