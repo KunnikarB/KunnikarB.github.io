@@ -87,12 +87,14 @@
    
     <div class="container">
       <h1 style="color: #ff6bbb;">Contact Us</h1>
-      <form action="#">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        
         <div class="row">
           <div class="col-25">
             <label for="fname">First Name</label>
           </div>
           <div class="col-75">
+            <input type="hidden" name="access_key" value="52419ba3-6a38-4f48-bc72-57269deb7428">
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
           </div>
         </div>
@@ -121,11 +123,19 @@
             <textarea id="message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
           </div>
         </div>
+
+        <!-- hCaptcha Spam Protection -->
+        <div class="h-captcha" data-captcha="true"></div>
+
         <div class="row">
           <input type="submit" value="Submit">
         </div>
         
       </form>
+
+      <!-- Required for hCaptcha -->
+      <script src="https://web3forms.com/client/script.js" async defer></script>
+
     </div>  
     <!--end of cotact form section-->
 
