@@ -3,88 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iBerry Coffe Lover</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap"
-      rel="stylesheet"
-    />
+    <title>My Portfolio & Blog</title>
+
+    <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/6c722e42cf.js"
-      crossorigin="anonymous"
+      crossorigin="anonymous" defer
     ></script>
+    <!--JS Link-->
+    <script src="script.js" defer></script>
 
+    <!-- CSS Link-->
     <link rel="stylesheet" href="styles/style.css" />
   </head>
+
   <body>
+<!-- Header section -->
+  <header>
     <!--nav menu section-->
-    <img
-      src="images/iBerry-coffee-lover.png"
-      style="width: 100svw"
-      alt="iBerry
-    coffee lover"
-    />
-    <a class="notification" href="#">Home Page</a>
-    <a class="notification" href="/pages/about-us.html">About Us</a>
-    <a class="notification" href="/pages/contact.html">Contact Us</a>
+    <h1>Welcome to my Portfolio & Blog</h1>
     <nav class="nav">
       <input id="menu" type="checkbox" />
-      <label for="menu">iBerry Menu</label>
+      <label for="menu">Menu</label>
       <ul class="menu">
         <li>
           <a href="pages/afternoon-tea.html">
-            <span>Afternoon tea</span>
+            <span>Travel</span>
             <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="pages/breakfast.html">
-            <span>Frukost</span>
-            <i class="fa-solid fa-bread-slice" aria-hidden="true"></i>
+          <a href="pages/blog.html">
+            <span>Foods</span>
+            <i class="fa-solid fa-utensils " aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="pages/branch.html">
-            <span>Brunch</span>
-            <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+          <a href="pages/contact.html">
+            <span>Contact</span>
+            <i class="fa-solid fa-bread-slice " aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="pages/drinks.html">
-            <span>Drinks</span>
+          <a href="pages/about.html">
+            <span>My CV</span>
             <i class="fa-solid fa-martini-glass" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
     </nav>
-    <!--end of nav menu section-->
+    <p class="notification">
+          Click on the menu 👆🏻 to see my blog posts.
+    </p>
+  </header>
+<!--end of Header section-->
 
-    <!--images section-->
-    <section>
-      <img
-        src="images/afternoon-tea.jpg"
-        style="width: 30svw"
-        alt="afternoon-tea"
-      />
-      <img
-        class="logo"
-        src="images/iBerry-logo.png"
-        style="width: 60px"
-        alt="iBerry logo"
-      />
-    </section>
-    <!--end of images section-->
+<!-- Main Section -->
+    <!--Hero section-->
+    <section class="section">
+      <div class="grid">
+        <div class="card ">
+          
+          <img style="width: 60svw;" src="/images/Kae.JPG" alt="my photo" />
+          <p>I am a web developer and a food lover. I love to create websites and
+          share my food experiences with you. I hope you enjoy my portfolio and
+          blog.
+        </p>
+        
 
-    <!--main body section-->
-      <h3 style="color: #5146e1; margin-top: 20px;">Coffee? Tea? Or Me? <span style="color: #ff6bbb;">&#9829;</span></h3>
-      <div class="container"></div>
-      <div class="card">
-        <img style="width: 30svw;" src="/images/kae2.png" alt="my photo" />
+        </div>
       </div>
-    
-    <!--end of main body section-->
+    </section>
+    <!--end of Hero section-->
 
+      
+    
+  <!-- Footer Section -->
     <!--contact section-->
     <div class="floating-container">
       <div class="floating-button">+</div>
@@ -110,9 +104,11 @@
     </div>
     <!--end of contact section-->
 
-    <!--footer section-->
+    <!--footer-->
     <footer class="page-footer">
-      <span>&#169;made by KunnikarB </span>
+      <span class="nowrap">&copy; <time id="year"></time> </span>
+        <span class="nowrap">Kunnikar Boonbunlu</span>
     </footer>
+  <!--end of footer section-->
   </body>
 </html>
