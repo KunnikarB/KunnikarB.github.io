@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/6c722e42cf.js"
+      crossorigin="anonymous" defer
+    ></script>
+    
+
+    <!-- CSS Link-->
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+
+  <body>
+<!-- Header section -->
+  <header>
+    <!--nav menu section-->
+    <h1>Welcome to my Blog</h1>
+    <a  href="index.html">
+            <span class="home-icon">Home</span>
+      <i class="fa-solid fa-house home" aria-hidden="true"></i>
+      </a>
+    <nav class="nav">
+      <input id="menu" type="checkbox" />
+      <label for="menu">Menu</label>
+      <ul class="menu">
+        <li>
+          <a href="#blog">
+            <span>Blog</span>
+            <i class="fa-solid fa-utensils " aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="lifestyle.html">
+            <span>Lifestyle</span>
+            <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="contact.html">
+            <span>Contact</span>
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="portfolio.html">
+            <span>My CV</span>
+            <i class="fa-regular fa-address-card" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <p class="notification">
+          Click on the menu 👆🏻 to see my blog posts.
+    </p>
+  </header>
+<!--end of Header section-->
+
+<!-- Main Section -->
+    <!--Hero section-->
+    <div class="hero-header">
+
+    <h2>Hello 👋🏻 I'm sharing stories about food, travel, and lifestyle.</h2>
+    </div>
+    
+  <!-- Blog section -->
+  <section id="blog" >
+    <h3>Blog</h3>
+    <div class=" blog-categories">
+      <button class="btn" data-category="all">All</button>
+      <button class="btn" data-category="food">Food</button>
+      <button class="btn" data-category="travel">Travel</button>
+      <button class="btn" data-category="lifestyle">Lifestyle</button>
+    </div>
+    <section class="hero-section">
+      <div class="grid">       
+        <div class="container" id="blog-posts">
+        </div>
+      </div>
+    </section>
+  </section>
+
+    <!--end of Blog section-->
+   
+    
+  <!-- Footer Section -->
+    <!--contact section-->
+    <div class="floating-container">
+      <div class="floating-button">+</div>
+      <div class="element-container">
+        <a href="https://github.com/KunnikarB">
+          <span class="float-element tooltip-left">
+            <i class="fa-brands fa-github"></i
+          ></span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/kunnikar/">
+          <span class="float-element">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </span>
+        </a>
+
+        <a href="https://www.facebook.com/KunnikarB/">
+          <span class="float-element">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+    <!--end of contact section-->
+
+    <!--footer-->
+    <footer class="page-footer">
+      <span class="nowrap">&copy; <time id="year"></time> </span>
+        <span class="nowrap">Kunnikar Boonbunlu</span>
+    </footer>
+  <!--end of footer section-->
+
+  <!--JS Link-->
+    <script src="script.js"></script>
+  </body>
+</html>

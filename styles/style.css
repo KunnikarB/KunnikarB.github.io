@@ -7,10 +7,10 @@
 :root {
   --white: #ffffff;
   --light-grey: #edf0f1;
-  --violet: #9f01ea;
-  --dark-violet: #5146e1;
+  --violet: #D267FE;
+  --dark-violet: #0000FF;
   --pink: #ff6bbb;
-  --back: #000000;
+  --back: #000000; 
 
   --font-family: "Mansalva", serif;
   --ff-400: 400;
@@ -144,6 +144,10 @@ body {
   background: var(--pink);
 }
 
+.menu li a:hover {
+  background: var(--violet);
+}
+
 .menu li a span {
   position: absolute;
   top: 0;
@@ -193,14 +197,101 @@ body {
   opacity: 1;
   transition-delay: 0.9s;
 }
+
+/* Grid Layout for Portfolio and Blog Sections */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
 /* Hero Section */
-header h1 {
+.hero-header { 
+  margin-top: 20px;
+  border: 1px solid var(--violet);
+  border-radius: 10px;
+  padding: 20px;
+   
+   & h2 {
+    font-size: 2rem;
+    font-family: var(--font-family); 
+    font-weight: var(--ff-400);
+    text-align: center;
+    background: linear-gradient(267deg, #DB7F29 50%, #9f01ea 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+header h1, h1 {
     font-size: 58px;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     animation: fadeIn 1s ease-in-out;
     font-family: var(--font-family);
     font-weight: var(--ff-400);
+    background: linear-gradient(267deg, #DB7F29 50%, #9f01ea 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+header .title-lifestyle {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+header .home-icon {
+    font-family: var(--font-family);
+    font-size: 2rem;
+    color: var(--pink);
+}
+
+header .home-icon:hover {
+    color: var(--violet);
+}
+
+header .home { 
+    font-size: 1.8rem;
+    border-radius: 50%;
+    background-color: var(--pink);
+    padding: 6px;
+}
+
+header .home:hover {
+    background-color: var(--violet);
+}
+
+/* Section Styles */
+.hero-section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out;
+
+    & h3 {
+        color: var(--white);
+        margin-bottom: 30px;
+    }
+}
+
+.hero-section h2 {
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+
 
 .card {
     background-color: #FFFFFF;
@@ -241,11 +332,11 @@ header h1 {
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 10px;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
 
@@ -266,9 +357,157 @@ header h1 {
   }
 }
 
+.btn, .blog-post a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: var(--violet);
+  color: var(--white);
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  font-weight: var(--ff-400);
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+}
 
+.btn:hover, .blog-post a:hover {
+  background: var(--dark-violet);
+}
+
+/* Blog section */
+h3 {
+  color: #5146e1; 
+  margin-top: 20px;
+}
+
+#projects .project, #blog, .blog-post {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  color: var(--violet);
+}
+
+.blog-post h3 {
+  color: var(--dark-violet);
+  margin-bottom: 1.5rem;
+}
+
+.blog-post p {
+  font-size: 1.6rem;
+  color: var(--dark-violet);
+  margin: 1.5rem;
+  text-align: justify;
+}
+
+
+.blog-post img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* .blog-categories button {
+  margin: 0 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+} */
 
 /* END OF MAIN BODY SECTION */
+
+
+/* CONTACT FORM*/
+
+.contact h2 {
+  color: var(--pink);
+  margin: 3rem;
+}
+.contact p {
+  font-size: 1.3rem;  
+}
+/*Form section*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  color: #655be1;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+::placeholder {
+  color:#655be1
+}
+
+.force-opaque::placeholder {
+  opacity: 1;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #655be1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+input[type=submit]:hover {
+  background-color: #56d8e4;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; 
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*End of form section*/
+
 
 /* CONTACT LINKS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -328,7 +567,8 @@ header h1 {
 }
 
 .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  background-color: var(--pink);
+  box-shadow: 0 10px 25px rgba(114, 91, 228, 0.6);
   -webkit-transform: translatey(5px);
           transform: translatey(5px);
   -webkit-transition: all 0.3s;
@@ -431,32 +671,6 @@ header h1 {
 }
 
 
-/* Section Styles */
-section {
-    padding: 40px 20px;
-    margin: 20px auto;
-    max-width: 1200px;
-    background-color: #F5F5F5; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: slideIn 1s ease-in-out;
-}
-
-section h2 {
-    color: var(--dark-violet); 
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* Grid Layout for Portfolio and Blog Sections */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-
-
 /* Add a hidden state for animations */
 .hidden {
     opacity: 0;
@@ -509,7 +723,17 @@ section h2 {
         padding: 20px;
     }
 
+    .card img {
+        width: 100%;
+    }
+
     .grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .card img {
+        width: 300px;
     }
 }
