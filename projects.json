@@ -1,0 +1,47 @@
+[
+  {
+    "title": "KB Creativ Agency",
+    "img": "images/KB-Creativ.png",
+    "excerpt": "This project is an agency design website that showcases the services of the agency. The website is responsive and can be viewed on any device. It was built using HTML, CSS, and Bootstrap.",
+    "category": "html",
+    "link": "https://kunnikarb.github.io/bootstrap/"
+  },
+  {
+    "title": "Agency Travel",
+    "img": "images/agency.png",
+    "excerpt": "This project is an agency design website that showcases the services of the travel agency. The website is responsive.",
+    "category": "html",
+    "link": "https://brightspark-agency.netlify.app/"
+  },
+  {
+    "title": "Taco Restaurant",
+    "img": "images/taco.png",
+    "excerpt": "This project is a Taco restaurant website that showcases the menu. The website is responsive and can be viewed on any device.",
+    "category": "js",
+    "link": "https://kb-taco.netlify.app/"
+  },
+  {
+    "title": "K-online Store",
+    "img": "images/k-commerce.png",
+    "excerpt": "This project is e-commerce website with checkout function and dark mode. The website is responsive.",
+    "category": "js",
+    "link": "https://k-online.netlify.app/"
+  },
+  {
+    "title": "Let's relax spa",
+    "img": "images/letsrelax.png",
+    "excerpt": "Spa website that showcases the services and wellness blog. The website is responsive.",
+    "category": "js",
+    "link": "https://thai-cuisine.netlify.app/"
+  },
+  {
+    "title": "Game  ",
+    "img": "images/game.png",
+    "excerpt": "Rock Paper Scissors game that you can play with computer.",
+    "category": "js",
+    "link": "https://kunnikar-rock-paper-scissor.netlify.app/"
+  }
+
+
+  
+]

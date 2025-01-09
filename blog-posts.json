@@ -2,9 +2,9 @@
   {
     "title": "10 Must-Try Thai Foods",
     "img": "images/padthai.jpeg",
-    "excerpt": "Thailand is a paradise for food lovers, offering a harmonious blend of bold flavors and fresh ingredients. From fiery curries to refreshing desserts.",
+    "excerpt": "Thailand is a paradise for food lovers, offering a harmonious blend of bold flavors and fresh ingredients.",
     "category": "food",
-    "link": "#"
+    "link": "./blog/food/food.html"
   },
   {
     "title": "The best places to visit in Sanremo, Italy",
@@ -12,13 +12,13 @@
 
     "excerpt": "Sanremo, often called the City of Flowers, is a stunning coastal town in Italy known for its Mediterranean charm, elegant villas, and rich history.",
     "category": "travel",
-    "link": "#"
+    "link": "./blog/travel/travel.html"
   },
   {
     "title": "5 Daily Habits for a Healthier Lifestyle",
     "img": "images/healthy-lifestyle.jpg",
     "excerpt": "Here are five simple yet powerful habits you can incorporate into your daily life to feel healthier and more energized.",
     "category": "lifestyle",
-    "link": "#"
+    "link": "./blog/lifestyle/lifestyle.html"
   }
 ]

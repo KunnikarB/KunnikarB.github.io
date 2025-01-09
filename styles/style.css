@@ -382,7 +382,7 @@ h3 {
   margin-top: 20px;
 }
 
-#projects .project, #blog, .blog-post {
+#projects .project-post, #blog, .blog-post {
   background: #f4f4f4;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -391,15 +391,16 @@ h3 {
 }
 
 .blog-post h3 {
-  color: var(--dark-violet);
+  color: var(--violet);
+  font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
 
 .blog-post p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: var(--dark-violet);
   margin: 1.5rem;
-  text-align: justify;
+  text-align: left;
 }
 
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Heathy Lifestyle</title>
 
     <!--Font Awesome-->
     <script
@@ -12,40 +12,44 @@
     ></script>
 
     <!-- CSS Link-->
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../../styles/style.css" />
   </head>
 
   <body>
 <!-- Header section -->
   <header>
     <!--nav menu section-->
-    <h1>Welcome to my Portfolio</h1>
+    <div class="title-lifestyle">
+      <p>🌸</p>
+      <h1> Food Lover</h1>
+      <p>🌸</p>
+    </div>
     
     <nav class="nav">
       <input id="menu" type="checkbox" />
       <label for="menu">Menu</label>
       <ul class="menu">
         <li>
-          <a href="index.html">
+          <a href="../../index.html">
             <span>Home</span>
             <i class="fa-solid fa-home" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="#projects">
+          <a href="../../portfolio.html">
             <span>My CV</span>
             <i class="fa-regular fa-address-card"></i>
           </a>
         </li>
         
         <li>
-          <a href="contact.html">
+          <a href="../../contact.html">
             <span>Contact</span>
             <i class="fa-regular fa-envelope" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="blog.html">
+          <a href="../../blog.html">
             <span>Blog</span>
             <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
           </a>
@@ -62,27 +66,45 @@
     <!--Hero section-->
     <div class="hero-header">
 
-    <h2>Hello 👋🏻 I'm a web developer passionate about building modern websites</h2>
+    <h2>Hello 👋🏻 I'm sharing stories about foods.</h2>
     </div>
     
-    <!-- Projects section -->
-  <!-- Projects section -->
-  <section id="blog" >
-    <h3>Projects</h3>
-    <div class=" blog-categories">
-      <button class="btn" data-category="all">All</button>
-      <button class="btn" data-category="html">HTML 🌸 CSS</button>
-      <button class="btn" data-category="js">HTML 🌸 CSS 🌸 JavaScript</button>
-      
-
-    </div>
     <section class="hero-section">
-      <div class="grid">       
-        <div class="container" id="blog-posts">
+      <h3>My Blog </h3>
+      <div class="grid">
+        <div class="card ">
+          
+          <img src="/images/Kae.JPG" alt="my photo" width="300"/>
+          <p>
+            I am a web developer and a food lover. 
+          </p>
+
+
+          <p>
+            <a href="pages/blog.html">
+            <button class="btn">Read my blog</button>
+            </a>
+          </p>
+
+        </div>
+
+        <div class="card ">
+          
+          <img src="/images/Kae.JPG" alt="my photo" width="300" />
+          <p>
+            I am a web developer and a food lover. 
+          </p>
+
+
+          <p>
+            <a href="pages/blog.html">
+            <button class="btn">Read my blog</button>
+            </a>
+          </p>
+
         </div>
       </div>
     </section>
-  </section>
     <!--end of Hero section-->
 
       
@@ -119,6 +141,8 @@
         <span class="nowrap">Kunnikar Boonbunlu</span>
     </footer>
   <!--end of footer section-->
-  <script src="projectsPost.js"></script>
+
+  <!--JS Link-->
+    <script src="../../script.js" defer></script>
   </body>
 </html>

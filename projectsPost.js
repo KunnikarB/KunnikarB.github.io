@@ -1,10 +1,9 @@
-
 // Load blog posts dynamically
 document.addEventListener('DOMContentLoaded', () => {
   const blogPostsContainer = document.getElementById('blog-posts');
   const categories = document.querySelectorAll('.blog-categories button');
 
-  fetch('blog-posts.json')
+  fetch('projects.json')
     .then((response) => response.json())
     .then((posts) => {
       renderPosts(posts);
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-// Function to render posts on the page dynamically
+  // Function to render posts on the page dynamically
   function renderPosts(posts) {
     blogPostsContainer.innerHTML = '';
     posts.forEach((post) => {
@@ -31,17 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <h3>${post.title}</h3>
         <img src="${post.img}" alt="${post.title}">
         <p>${post.excerpt}</p>
-        <a href="${post.link}" target="_blank">Read More</a>
+        <a href="${post.link}" target="_blank">Link to project</a>
       `;
       blogPostsContainer.appendChild(postElement);
     });
   }
 });
-
-// Footer year update dynamically
-const year = document.getElementById('year');
-const thisYear = new Date().getFullYear();
-year.setAttribute('datetime', thisYear);
-year.textContent = thisYear;
-
-
