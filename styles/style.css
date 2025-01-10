@@ -177,12 +177,7 @@ body {
   color: var(--white);
   font-weight: bold;
   
-}
-
-.skills-section .text p {
-  font-size: 1.3rem;
-  text-align: left;
- } 
+} 
  
 
 .nav input:checked ~ .menu li:nth-child(1) {
@@ -301,6 +296,13 @@ header .home:hover {
         color: var(--white);
         margin-bottom: 30px;
     }
+}
+
+.hero-section .grid .card .profile-img {
+    max-width: 300px;
+    width: 100%;
+    height:auto;
+    margin: 1rem auto;
 }
 
 .hero-section h2 {
@@ -539,6 +541,11 @@ h3 {
     margin-bottom: 20px;
     font-size: 1.5rem;
   }
+
+  .skills-section .text p {
+  font-size: 1.3rem;
+  text-align: left;
+ }
   
   .skills-section .images {
     display: flex;
@@ -1110,6 +1117,7 @@ input[type=submit]:hover {
   header .title-lifestyle h1 {
     font-size: 45px;
   }
+
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -1254,11 +1262,7 @@ input[type=submit]:hover {
   .hero-section .grid .card a .btn {
     font-size: 1rem;
   }
-  
-  .hero-section .card img {
-    width: 100%;
-    margin: 0 auto;
-  }
+
   .about-me {
     & h2 {
       font-size: 1.5rem;
@@ -1351,10 +1355,10 @@ input[type=submit]:hover {
     font-size: 1rem;
   }
 
-  .hero-section .card img {
+  /* .hero-section .card img {
     width: 100%;
     margin: 0 auto;
-  }
+  } */
 
   .hero-section .grid .card a .btn {
     font-size: 1rem;
