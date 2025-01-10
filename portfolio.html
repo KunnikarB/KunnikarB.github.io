@@ -19,7 +19,11 @@
 <!-- Header section -->
   <header>
     <!--nav menu section-->
-    <h1>Welcome to my Portfolio</h1>
+    <div class="title-lifestyle">
+      <p>🌸</p>
+      <h1> Portfolio</h1>
+      <p>🌸</p>
+    </div>
     
     <nav class="nav">
       <input id="menu" type="checkbox" />
@@ -53,22 +57,119 @@
       </ul>
     </nav>
     <p class="notification">
-          Click on the menu 👆🏻 to see my blog posts.
+          Click 👆🏻 
     </p>
   </header>
 <!--end of Header section-->
 
 <!-- Main Section -->
-    <!--Hero section-->
-    <div class="hero-header">
+    <!--Hero section--->
 
-    <h2>Hello 👋🏻 I'm a web developer passionate about building modern websites</h2>
-    </div>
-    
+    <!-- SECTION HERO 1: MY CV -->
+      <section class="hero-cv">
+        <div class="profile">
+          <img src="images/profile.jpg" alt="Woman profile" />
+        </div>
+        <div class="text">
+          <h2>Hi, I'm Kunnikar 👋</h2>
+          <p>
+            Front-end developer with a background in Infomation technologies based in Stockholm, Sweden. I am currently avaliable to take on new projets. 
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#projects">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Projects</span>
+            </a>
+
+            <a href="contact.html#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- SECTION 2: Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills 🔥</h2>
+        <div class="text">
+          <p>
+          I am passionate about creating beautiful and functional websites. I have a strong
+          foundation in front-end development and am always eager to learn new
+          technologies. I have experience working with HTML, CSS, JavaScript,
+          Node.js, and React.js. I am also familiar with Git and GitHub.</p>
+
+        </div>
+            
+        </div>
+
+        <div class="images">
+          <div class="image">
+            <img src="images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="image">
+            <img src="images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="image">
+            <img src="images/javascript-logo.webp" alt="javascript logo" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="image">
+            <img src="images/node-logo.webp" alt="node logo" />
+            <span>Node.js</span>
+          </div>
+
+          <div class="image">
+            <img src="images/react-logo.webp" alt="react logo" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony ❤️</h2>
+
+        <div class="group">
+          <div class="person-details">
+            <img src="images/testimony.JPG" />
+            <p>Thomas Falck</p>
+            <p>Business Owner.</p>
+          </div>
+
+          <div class="text">
+            <p>
+            "I was very impressed with the quality of work and the quick
+            turnaround time. I would recommend her to anyone looking for a
+            professional web developer."</p>
+          </div>
+        </div>
+      </section>
+
+
+
+
     <!-- Projects section -->
   <!-- Projects section -->
   <section id="blog" >
-    <h3>Projects</h3>
+    <h3 id="projects">Projects</h3>
     <div class=" blog-categories">
       <button class="btn" data-category="all">All</button>
       <button class="btn" data-category="html">HTML 🌸 CSS</button>
@@ -76,10 +177,8 @@
       
 
     </div>
-    <section class="hero-section">
-      <div class="grid">       
-        <div class="container" id="blog-posts">
-        </div>
+    <section class="hero-section">   
+      <div class="container" id="blog-posts">
       </div>
     </section>
   </section>
