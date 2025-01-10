@@ -921,6 +921,47 @@ input[type=submit]:hover {
     font-size: 55px;
   }
 
+  .nav [type="checkbox"] + label {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+  }
+
+  .nav input:checked + label {
+    font-size: 1.2rem;
+    font-weight: var(--ff-400);
+    text-align: center;
+  }
+
+  .nav input:checked ~ .menu li:nth-child(2) {
+  top: -180px;
+  left: calc(50% - 100px);
+  transition-delay: 0.2s;
+}
+
+.nav input:checked ~ .menu li:nth-child(3) {
+  top: -180px;
+  left: calc(50% + 100px);
+  transition-delay: 0.3s;
+}
+
+  .menu li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .menu li a i {
+    font-size: 1.5rem;
+  }
+
+  .menu li a span {
+    font-size: 1.2rem;
+  }
+
+  .notification {
+    font-size: 2rem;
+  }
+
     section {
         padding: 20px;
     }
@@ -963,11 +1004,121 @@ input[type=submit]:hover {
     }
 
     footer {
+        font-size: 1.2rem;
+    }
+
+    .hero-cv .text h2, .testimony-section h2, .skills-section h2 {
+        font-size: 2rem;
+    }
+
+    .hero-cv .text p {
+        font-size: 1.1rem;
+    }
+
+    .hero-cv .text .links a {
         font-size: 1rem;
     }
 
-    .grid {
-        grid-template-columns: 1fr;
+    .hero-cv .profile img {
+        width: 200px;
+    }
+
+    .skills-section .text {
+        font-size: 1.1rem;
+    }
+
+    .skills-section .images .image {
+        width: 150px;
+        padding: 10px 15px;
+    }
+
+    .skills-section .images .image span {
+        font-size: 1rem;
+    }
+
+    .testimony-section .group .person-details p {
+        font-size: 1.2rem;
+    }
+
+    .testimony-section .group .text {
+        font-size: 1.1rem;
+    }
+
+    .testimony-section .group .person-details img {
+        width: 150px;
+    }
+
+    .floating-container .floating-button {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact input[type=text], select, textarea, input[type=email] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid;
+        color: #655be1;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    .contact input[type=submit] {
+        width: 100%;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: center;
+    }
+
+   .contect form label {
+        font-size: 1rem;
+    }
+
+    .container {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .page-footer {
+        font-size: 1.5rem;
+    }
+
+    .floating-container .floating-button {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .floating-container .float-element {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .floating-container .float-element .material-icons {
+        font-size: 16px;
     }
 }
 
@@ -976,6 +1127,44 @@ input[type=submit]:hover {
   header .title-lifestyle h1 {
     font-size: 45px;
   }
+
+  .nav [type="checkbox"] + label {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+  }
+
+  .nav input:checked + label {
+    font-size: 1.2rem;
+    font-weight: var(--ff-400);
+    text-align: center;
+  }
+
+  .nav input:checked ~ .menu li:nth-child(2) {
+  top: -180px;
+  left: calc(50% - 100px);
+  transition-delay: 0.2s;
+}
+
+.nav input:checked ~ .menu li:nth-child(3) {
+  top: -180px;
+  left: calc(50% + 100px);
+  transition-delay: 0.3s;
+}
+
+  .menu li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .menu li a i {
+    font-size: 1.5rem;
+  }
+
+  .menu li a span {
+    font-size: 1.2rem;
+  }
+  
 
   .about-me {
     & h2 {
@@ -1002,6 +1191,14 @@ input[type=submit]:hover {
 
   .blog-post a {
     font-size: 0.8rem;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
   }
 }
 
@@ -1144,5 +1341,45 @@ input[type=submit]:hover {
     line-height: 50px;
     font-size: 20px;
   }
+
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+
+  .contact input[type=text], select, textarea, input[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid;
+    color: #655be1;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  .contact input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+  }
+
+  .h-captcha {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 }
 
