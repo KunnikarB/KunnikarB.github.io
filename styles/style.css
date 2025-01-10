@@ -711,6 +711,15 @@ input[type=submit]:hover {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
+
+  }
+
+  .hero-section .grid .card img {
+    margin: 1rem auto;
+  }
+
+  .hero-section .grid .card a .btn {
+    font-size: 1rem;
   }
 }
 /*End of form section*/
