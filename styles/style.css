@@ -690,22 +690,7 @@ input[type=submit]:hover {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
 
-  }
-
-  .hero-section .grid .card img {
-    margin: 1rem auto;
-  }
-
-  .hero-section .grid .card a .btn {
-    font-size: 1rem;
-  }
-}
 /*End of form section*/
 
 
@@ -1117,6 +1102,105 @@ input[type=submit]:hover {
     .floating-container .float-element .material-icons {
         font-size: 16px;
     }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  header .title-lifestyle h1 {
+    font-size: 45px;
+  }
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+
+  }
+
+  .hero-section .grid .card img {
+    margin: 1rem auto;
+  }
+
+  .hero-section .grid .card a .btn {
+    font-size: 1rem;
+  }
+
+  .hero-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .hero-section .card img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+
+  .hero-cv .text h2, .testimony-section h2, .skills-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-cv .text p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .hero-cv .text .links a {
+    font-size: 1rem;
+  }
+
+  .hero-cv .text .links a span {
+    font-size: 0.9rem;
+  }
+
+  .hero-cv .profile img {
+    width: 150px;
+  }
+
+  .skills-section .text p {
+    font-size: 1.1rem;
+  }
+
+  .skills-section .images .image {
+    width: 150px;
+    padding: 10px 15px;
+  }
+
+  .skills-section .images .image span {
+    font-size: 0.9rem;
+  }
+
+  .testimony-section .group .person-details p {
+    font-size: 1.2rem;
+  }
+
+  .testimony-section .group .text {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .testimony-section .group .person-details img {
+    width: 150px;
+  }
+
+  .blog-categories {
+    display: inline;
+
+    & button {
+      font-size: 1rem;
+    }
+
+  }
+
 }
 
 @media screen and (max-width: 425px) {
