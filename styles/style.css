@@ -390,25 +390,12 @@ header .home:hover {
 
 /* MAIN BODY SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* .main.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 10px;
-
-  & h3 {
-    color: #5146e1; 
-    margin-top: 20px;
-
-  }
-} */
 
 .btn, .blog-post a {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 20px;
-  background: var(--violet);
+  background: #0000FF;
   color: var(--white);
   border-radius: 5px;
   font-size: 1.6rem;
@@ -472,7 +459,7 @@ h3 {
 }
 
 .blog-post a {
-  background: var(--violet);
+  background: #0000FF;
   color: var(--white);
   border: none;
   padding: 5px 10px;
