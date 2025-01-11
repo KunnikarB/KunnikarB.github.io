@@ -402,6 +402,46 @@ header .home:hover {
   animation: slideIn 1s ease-in-out;
 }
 
+#habits-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--back);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 1rem auto;
+
+  & h2 {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  & p {
+    color: var(--pink);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  & a {
+    background: #0000FF;
+    color: var(--white);
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: var(--pink);
+    }
+  }
+
+}
+
 h3 {
   color: #5146e1; 
   margin-top: 20px;
