@@ -1,8 +1,5 @@
 /* RESET/BASIC STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 :root {
   --white: #ffffff;
@@ -61,13 +58,6 @@ body {
   min-height: 100vh;
 }
 
-.logo {
-  position: fixed;
-  right: 25px;
-  bottom: 35px;
-  display: flex;
-}
-
 .notification {
   position: relative;
   margin: auto;
@@ -77,10 +67,6 @@ body {
   font-weight: var(--ff-400);
 } 
 
- /* .notification:hover{
-  background: var(--pink);
-  color: var(--back);  
-}  */
 
 /* MAIN STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -287,9 +273,6 @@ header .home:hover {
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 1200px;
-    /* background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     animation: slideIn 1s ease-in-out;
 
     & h3 {
@@ -409,7 +392,16 @@ header .home:hover {
   background: var(--dark-violet);
 }
 
-/* Blog section */
+/* BLOG SECTION */
+
+.blog-section {
+  background-color: var(--white);
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  animation: slideIn 1s ease-in-out;
+}
+
 h3 {
   color: #5146e1; 
   margin-top: 20px;
@@ -469,8 +461,6 @@ h3 {
   
 }
 
-
-/* END OF MAIN BODY SECTION */
 
 /* Portfolio */
 /* SECTION 1: Hero */
@@ -630,6 +620,7 @@ h3 {
 .contact p {
   font-size: 1.3rem;  
 }
+
 /*Form section*/
 input[type=text], select, textarea, input[type=email] {
   width: 100%;

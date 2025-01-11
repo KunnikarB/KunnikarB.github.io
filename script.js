@@ -38,6 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// Initial content load
+window.onload = renderPosts;
+
 // Footer year update dynamically
 const year = document.getElementById('year');
 const thisYear = new Date().getFullYear();
