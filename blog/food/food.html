@@ -15,6 +15,8 @@
       crossorigin="anonymous" defer
     ></script>
 
+    <script src="script.js" defer></script>
+
     <!-- CSS Link-->
     <link rel="stylesheet" href="../../styles/style.css" />
   </head>
@@ -72,44 +74,22 @@
 
     <h2>Hello 👋🏻 I'm sharing stories about foods.</h2>
     </div>
-    
-    <section class="hero-section">
-      <h3>My Blog </h3>
-      <div class="grid">
-        <div class="card ">
-          
-          <img src="/images/Kae.JPG" alt="my photo" width="300"/>
-          <p>
-            I am a web developer and a food lover. 
-          </p>
+  <main>
+    <section class="hero-section" aria-label="blog">
+      <h2>10 Must-Try Thai Foods</h2>
+      <p>Discover the iconic flavors of Thai cuisine!</p>
 
-
-          <p>
-            <a href="pages/blog.html">
-            <button class="btn">Read my blog</button>
-            </a>
-          </p>
-
-        </div>
-
-        <div class="card ">
-          
-          <img src="/images/Kae.JPG" alt="my photo" width="300" />
-          <p>
-            I am a web developer and a food lover. 
-          </p>
-
-
-          <p>
-            <a href="pages/blog.html">
-            <button class="btn">Read my blog</button>
-            </a>
-          </p>
-
-        </div>
+      <div class="controls">
+      <input type="text" id="searchBar" placeholder="Search for a dish..." />
       </div>
+      <section class="card" >
+        <div id="thai-foods-content" >
+        <!-- Thai food items will be dynamically added here -->
+       </div>
+      </section>
     </section>
-    <!--end of Hero section-->
+  </main>  
+<!--end of Main-->
 
       
     
