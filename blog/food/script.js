@@ -5,7 +5,7 @@ const thaiFoods = [
   {
     name: 'Pad Thai',
     description:
-      'A stir-fried noodle dish with tamarind, shrimp, tofu, and peanuts.',
+      'A classic Thai stir-fried noodle dish known for its sweet, tangy, and savory flavors. It features rice noodles tossed with tamarind sauce, eggs, tofu, and your choice of protein (shrimp, chicken, or tofu), garnished with crushed peanuts, bean sprouts, and lime wedges. A balance of textures and flavors makes Pad Thai a universally loved comfort food.',
     img: '../../images/pad-thai.jpg',
   },
   {
@@ -46,7 +46,8 @@ const thaiFoods = [
   },
   {
     name: 'Pad Krapow Moo Saap',
-    description: 'A spicy stir-fried pork dish with holy basil and chilies.',
+    description:
+      'A popular Thai dish made with stir-fried minced pork (moo saap) and holy basil (krapow). Known for its bold, aromatic flavors, it combines garlic, chili, fish sauce, oyster sauce, and soy sauce to create a savory, spicy, and fragrant meal. Often topped with a fried egg (kai dao) and served with jasmine rice, it is a staple in Thai street food culture and a favorite for its simplicity and punchy taste.',
     img: '../../images/minced-pork.jpg',
   },
   {
