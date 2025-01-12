@@ -1,4 +1,3 @@
-
 // Load blog posts dynamically
 document.addEventListener('DOMContentLoaded', () => {
   const blogPostsContainer = document.getElementById('blog-posts');
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-// Function to render posts on the page dynamically
+  // Function to render posts on the page dynamically
   function renderPosts(posts) {
     blogPostsContainer.innerHTML = '';
     posts.forEach((post) => {
@@ -43,5 +42,3 @@ const year = document.getElementById('year');
 const thisYear = new Date().getFullYear();
 year.setAttribute('datetime', thisYear);
 year.textContent = thisYear;
-
-
