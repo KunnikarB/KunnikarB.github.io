@@ -1360,7 +1360,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 425px) {
 
   header .title-lifestyle h1 {
-    font-size: 45px;
+    font-size: 36px;
   }
 
   .nav {
@@ -1428,11 +1428,15 @@ input[type=submit]:hover {
 
   }
 
+  #habits-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .hero-header-food {
 
     & h2 {
       font-size: 1.5rem;
-      width: 100%;
       margin: 0 auto;
     }
     & p {
@@ -1499,7 +1503,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 320px) {
 
   header .title-lifestyle h1 {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   .nav {
@@ -1587,7 +1591,7 @@ input[type=submit]:hover {
   .hero-section {
         margin: 0 auto;
     }
-    
+
   .notification {
     font-size: 1.8rem;
   }
@@ -1645,9 +1649,11 @@ input[type=submit]:hover {
 
   .blog-categories {
     display: inline;
-
+    & h2 {
+      font-size: 1.3rem;
+    }
     & button {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
 
   }
