@@ -260,13 +260,16 @@ header .home:hover {
    
    & h2 {
     font-size: 2rem;
-    font-family: var(--font-family); 
-    font-weight: var(--ff-400);
+    font-family: var(--ff-rubik); 
+    font-weight: var(--fw-700);
     text-align: center;
-    background: linear-gradient(267deg, #DB7F29 50%, #9f01ea 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--pink);
+  }
+
+  & p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
   }
 }
 
@@ -1252,6 +1255,7 @@ input[type=submit]:hover {
 
   }
 
+
   .hero-section .grid .card img {
     margin: 1rem auto;
   }
@@ -1387,6 +1391,50 @@ input[type=submit]:hover {
     font-size: 1.2rem;
   }
 
+  .hero-header {
+    border: none;
+    width: 100%;
+
+    & .card {
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    & h2 {
+      font-size: 1.5rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+    & p {
+      font-size: 1rem;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+  }
+
+  .hero-header-food {
+
+    & h2 {
+      font-size: 1.5rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+    & p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+
+    & ul {
+      font-size: 1rem;
+    }
+
+    & li {
+      font-size: 1rem;
+    }
+  }
+
   .hero-section .grid .card a .btn {
     font-size: 1rem;
   }
@@ -1473,7 +1521,41 @@ input[type=submit]:hover {
   .menu li a span {
     font-size: 1.2rem;
   }
+   
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .hero-header {
+    width: 350px;
+    margin: 2rem auto;
+  }
 
+  .hero-header-food {
+    width: 300px;
+    margin: 2rem auto;
+
+    & h2 {
+      font-size: 1.5rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+    & p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+
+    & ul {
+      font-size: 1rem;
+    }
+
+    & li {
+      font-size: 1rem;
+    }
+
+  }
 
   .hero-section h2 {
     font-size: 1.3rem;
@@ -1482,11 +1564,6 @@ input[type=submit]:hover {
   .hero-section p {
     font-size: 1rem;
   }
-
-  /* .hero-section .card img {
-    width: 100%;
-    margin: 0 auto;
-  } */
 
   .hero-section .grid .card a .btn {
     font-size: 1rem;
