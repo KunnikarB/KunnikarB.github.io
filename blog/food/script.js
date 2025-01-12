@@ -2,16 +2,65 @@
 
 // Array of 10 must-try Thai foods
 const thaiFoods = [
-  { name: "Pad Thai", description: "A stir-fried noodle dish with tamarind, shrimp, tofu, and peanuts." },
-  { name: "Tom Yum Goong", description: "A hot and sour soup with shrimp, lemongrass, and lime leaves." },
-  { name: "Green Curry", description: "A creamy, spicy curry made with green chili paste, coconut milk, and chicken." },
-  { name: "Som Tum", description: "A refreshing green papaya salad with a tangy lime dressing." },
-  { name: "Massaman Curry", description: "A mild, rich curry with potatoes, peanuts, and a unique blend of spices." },
-  { name: "Mango Sticky Rice", description: "A sweet dessert made of sticky rice, fresh mango, and coconut cream." },
-  { name: "Satay", description: "Grilled meat skewers served with a rich peanut sauce." },
-  { name: "Pad Krapow Moo Saap", description: "A spicy stir-fried pork dish with holy basil and chilies." },
-  { name: "Khao Soi", description: "A Northern Thai noodle dish in a fragrant coconut curry broth." },
-  { name: "Spring Rolls", description: "Crispy rolls filled with vegetables, glass noodles, and sometimes meat." },
+  {
+    name: 'Pad Thai',
+    description:
+      'A stir-fried noodle dish with tamarind, shrimp, tofu, and peanuts.',
+    img: '../../images/pad-thai.jpg',
+  },
+  {
+    name: 'Tom Yum Goong',
+    description:
+      'Tom yum is a classic Thai soup famous for its bold, aromatic, and refreshing flavors. Is made with a fragrant broth infused with lemongrass, galangal, kaffir lime leaves, Thai chilies, and is typically garnished with fresh herbs and lime juice.',
+    img: '../../images/tom-yum.jpg',
+  },
+  {
+    name: 'Gaeng Kiew Wan',
+    description:
+      'Green Curry is a popular Thai dish known for its creamy, aromatic, and mildly spicy flavors. It features a rich and creamy coconut milk-based curry with a blend of fresh green chilies, Thai basil leaves, kaffir lime leaves, and other fragrant herbs and spices. Green Curry is typically made with chicken, beef, or tofu, and is served with steamed jasmine rice or rice noodles.',
+    img: '../../images/green-curry.jpg',
+  },
+  {
+    name: 'Som Tum',
+    description:
+      'Thai Green Papaya Salad, is one of the most iconic and beloved dishes in Thai cuisine. It originates from the northeastern region of Thailand (Isan) but is enjoyed nationwide and beyond due to its vibrant flavors. Som Tum combines a perfect balance of spicy, sour, salty, and sweet flavors, making it a refreshing yet bold dish.',
+    img: '../../images/papaya-salad.jpg',
+  },
+  {
+    name: 'Kanom Jeen Nam Ya',
+    description:
+      'Thai Noodle Curry Soup. Is a beloved Thai dish featuring thin fermented rice noodles (kanom jeen) served with a fragrant and flavorful curry sauce (nam ya). The curry is made with fish, coconut milk, and a blend of Thai herbs and spices. This dish is typically garnished with fresh vegetables, boiled eggs, and herbs, making it a light yet satisfying meal. ',
+    img: '../../images/kanom-jeen.jpg',
+  },
+  {
+    name: 'Khao Niew Mamuang',
+    description:
+      'Mango Sticky Riceis, is a classic Thai dessert known for its perfect harmony of flavors and textures. The dish combines sweet and sticky glutinous rice infused with coconut milk, ripe and juicy mango slices, and a drizzle of creamy coconut sauce, topped with crunchy mung beans or sesame seeds. It is simple yet indulgent, making it a must-try treat.',
+    img: '../../images/mango.jpg',
+  },
+  {
+    name: 'Gai Satay',
+    description:
+      'Satay is a popular dish in Thai cuisine, as well as in other Southeast Asian cuisines, particularly in Indonesia and Malaysia. Thai satay typically consists of marinated meat skewered on sticks, grilled to perfection, and served with a rich, creamy peanut sauce and a tangy cucumber relish called ajat.',
+    img: '../../images/satay.jpg',
+  },
+  {
+    name: 'Pad Krapow Moo Saap',
+    description: 'A spicy stir-fried pork dish with holy basil and chilies.',
+    img: '../../images/minced-pork.jpg',
+  },
+  {
+    name: 'Kuay Teow Rua',
+    description:
+      'Traditionally served from boats in Bangkok’s canals, this flavorful soup is a harmonious blend of rich, aromatic broth, tender meat, and noodles.',
+    img: '../../images/thai-boat-noodle.jpg',
+  },
+  {
+    name: 'Kor Moo Yang',
+    description:
+      'Popular Isan (Northeast Thailand) dish featuring tender, juicy slices of grilled pork neck, known for its rich flavor and perfect balance of meat and fat. It is traditionally marinated with a blend of Thai seasonings, grilled to a smoky perfection, and served with Nam Jim Jaew, a tangy and spicy dipping sauce.',
+    img: '../../images/kor-moo-grilled.jpg',
+  },
 ];
 
 // Function to load Thai foods dynamically
@@ -30,6 +79,7 @@ function loadThaiFoods(filter = "") {
     foodItem.classList.add("food-item");
     foodItem.innerHTML = `
       <h2>${food.name}</h2>
+      <img src="${food.img}" alt="${food.name}">
       <p>${food.description}</p>
     `;
     contentSection.appendChild(foodItem);
