@@ -272,10 +272,9 @@ header .home:hover {
 }
 
 .hero-header-food {
-  margin-top: 20px;
   border: 1px solid var(--violet);
   border-radius: 10px;
-  padding: 20px;
+
 
   & .rubik {
     font-family: var(--ff-rubik);
@@ -286,8 +285,8 @@ header .home:hover {
   }
 
   & h2 {
+    margin-top: 2rem;
     font-size: 2rem;
-    margin: 2rem;
     font-family: var(--font-family);
     font-weight: var(--ff-400);
     text-align: center;
@@ -302,6 +301,7 @@ header .home:hover {
     font-size: 1.3rem;
     margin: 1rem;
     text-align: left;
+    margin-bottom: 2rem;
   }
 
   & ul {
