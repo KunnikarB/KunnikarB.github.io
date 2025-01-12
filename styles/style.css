@@ -1,6 +1,6 @@
 /* RESET/BASIC STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 
 :root {
@@ -10,7 +10,6 @@
   --dark-violet: #0000FF;
   --pink: #ff6bbb;
   --back: #000000; 
-
   --font-family: "Mansalva", serif;
   --ff-400: 400;
   --ff-rubik: "Rubik", sans-serif;
