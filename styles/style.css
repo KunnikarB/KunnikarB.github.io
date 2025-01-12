@@ -254,9 +254,7 @@ header .home:hover {
 /* Hero Section */
 .hero-header { 
   margin-top: 20px;
-  border: 1px solid var(--violet);
-  border-radius: 10px;
-  padding: 20px;
+  
    
    & h2 {
     font-size: 2rem;
@@ -371,15 +369,15 @@ header .home:hover {
     }
 }
 
-.card{
+.card {
+  width: 100%;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
-  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(203, 34, 147, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s 
   ease;
   animation: slideIn 1s ease-in-out;
-  margin: 1rem auto;
+  margin: 2rem auto;
 
     & img {
         border-radius: 25px;
@@ -475,14 +473,13 @@ main {
 
 #thai-foods-content, #habits-content {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .food-item, #habits-content  {
   background-color: var(--back);
   margin: 1rem;
   padding: 15px;
-  border: 1px solid var(--pink);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   animation: slideIn 1s ease-in-out;
@@ -508,7 +505,7 @@ main {
 .food-item p {
   font-family: var(--ff-rubik);
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: left;
   margin: 2rem;
 }
 
@@ -1531,7 +1528,14 @@ input[type=submit]:hover {
   .hero-header {
     width: 350px;
     margin: 2rem auto;
+
+    & #thai-foods-content {
+      width: 100%;
+    }
+
+
   }
+
 
   .hero-header-food {
     width: 300px;
