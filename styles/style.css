@@ -462,9 +462,6 @@ header .home:hover {
 }
 
 /* BLOG SECTION */
-
-
-
 /* Thai Food Blog */
 .controls {
   text-align: center;
@@ -528,7 +525,6 @@ main {
 
 /* Lifestyle Blog */
 #habits-content {
-
   & h2 {
     color: var(--pink);
     font-size: 2rem;
@@ -841,8 +837,6 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-
-
 /*End of form section*/
 
 
