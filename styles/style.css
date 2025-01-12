@@ -206,49 +206,6 @@ section {
   margin: 20px auto;
   max-width: 1200px;
 }
-/* Hero Section */
-.hero-header { 
-  margin-top: 20px;
-  border: 1px solid var(--violet);
-  border-radius: 10px;
-  padding: 20px;
-   
-   & h2 {
-    font-size: 2rem;
-    font-family: var(--font-family); 
-    font-weight: var(--ff-400);
-    text-align: center;
-    background: linear-gradient(267deg, #DB7F29 50%, #9f01ea 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
-
-.hero-header-food {
-  margin-top: 20px;
-  border: 1px solid var(--violet);
-  border-radius: 10px;
-  padding: 20px;
-
-  & h2 {
-    font-size: 2rem;
-    margin: 2rem;
-    font-family: var(--font-family);
-    font-weight: var(--ff-400);
-    text-align: center;
-    background: linear-gradient(180deg, #9f01ea  50%,  #DB7F29 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-  }
-
-  & p {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-}
 
 header h1, h1 {
     font-size: 68px;
@@ -294,6 +251,75 @@ header .home:hover {
 }
 
 /* Section Styles */
+/* Hero Section */
+.hero-header { 
+  margin-top: 20px;
+  border: 1px solid var(--violet);
+  border-radius: 10px;
+  padding: 20px;
+   
+   & h2 {
+    font-size: 2rem;
+    font-family: var(--font-family); 
+    font-weight: var(--ff-400);
+    text-align: center;
+    background: linear-gradient(267deg, #DB7F29 50%, #9f01ea 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.hero-header-food {
+  margin-top: 20px;
+  border: 1px solid var(--violet);
+  border-radius: 10px;
+  padding: 20px;
+
+  & .rubik {
+    font-family: var(--ff-rubik);
+  }
+
+  & .text-center {
+    text-align: center;
+  }
+
+  & h2 {
+    font-size: 2rem;
+    margin: 2rem;
+    font-family: var(--font-family);
+    font-weight: var(--ff-400);
+    text-align: center;
+    background: linear-gradient(180deg, #9f01ea  50%,  #DB7F29 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  & p {
+    font-size: 1.3rem;
+    margin: 1rem;
+    text-align: left;
+  }
+
+  & ul {
+    list-style: bullet;
+    text-align: left;
+    margin-bottom: 2rem;
+
+  }
+
+  & li {
+    font-size: 1.3rem;
+    margin: 1rem;
+
+    & span {
+      color: var(--pink);
+    }
+  }
+}
+
 .hero-section {
     padding: 40px 20px;
     margin: 20px auto;
@@ -457,6 +483,9 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   animation: slideIn 1s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s 
+    ease;
+  margin-bottom: 2rem;
 }
 
 .food-item h2 {
@@ -474,8 +503,10 @@ main {
 }
 
 .food-item p {
-  margin: 0;
   font-family: var(--ff-rubik);
+  font-size: 1.3rem;
+  text-align: justify;
+  margin: 2rem;
 }
 
 /* Lifestyle Blog */
