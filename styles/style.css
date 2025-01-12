@@ -255,7 +255,6 @@ header .home:hover {
 .hero-header { 
   margin-top: 20px;
   
-   
    & h2 {
     font-size: 2rem;
     font-family: var(--ff-rubik); 
@@ -268,6 +267,13 @@ header .home:hover {
     font-size: 1.5rem;
     text-align: center;
     margin: 2rem;
+  }
+
+  & img {
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 2rem auto;
   }
 }
 
@@ -308,16 +314,26 @@ header .home:hover {
     list-style: bullet;
     text-align: left;
     margin-bottom: 2rem;
+    padding: 1rem;
 
   }
 
   & li {
     font-size: 1.3rem;
     margin: 1rem;
+    padding: 1rem;
+    
 
-    & span {
+    & span, strong {
       color: var(--pink);
     }
+  }
+
+  & img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 2rem auto;
   }
 }
 
