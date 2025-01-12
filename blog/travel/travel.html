@@ -7,7 +7,7 @@
       name="description"
       content="Blog about lifestyle and healthy living"
     />
-    <title>Heathy Lifestyle</title>
+    <title>Exploring Sanremo: A 2-Day Guide</title>
 
     <!--Font Awesome-->
     <script
@@ -27,6 +27,13 @@
 
     <!-- CSS Link-->
     <link rel="stylesheet" href="../../styles/style.css" />
+
+    <!--- preload images -->
+  <link rel="preload" as="image" href="../../images/sanremo.webp" />
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
   </head>
 
   <body>
@@ -78,17 +85,49 @@
 
 <!-- Main Section -->
     <!--Hero section-->
-    <div class="hero-header">
+ <header>
+    <section aria-label="sanremo">
+      
+      <img
+        src="../../images/sanremo.webp"
+        alt="Sanremo, Italy"
+        class="hero-image"
+      />
+      <div class="hero-header">
+        <h2>Exploring Sanremo: A 2-Day Guide to Italy’s City of Flowers</h2>
 
-    <h2>Hello 👋🏻 I'm sharing stories about my travel</h2>
-    </div>
-    
-    <section class="blog-section" aria-label="blog">
-      <h1>A Culinary Journey: 10 Must-Try Thai Foods</h1>
-      <p>Embark on a flavorful adventure through Thailand's iconic dishes.</p>
-
-      <div id="blog-content"></div>
+        <p>Discover the best of Sanremo with this easy-to-follow itinerary!</p>
+      </div>
     </section>
+ </header>
+
+ <main>
+  <article>
+    <section>
+      
+    </section>
+      <section class="hero-header-food">
+        <h2>Day 1: Discover Sanremo’s Historic Charm</h2>
+        <ul>
+          <li><strong>Morning:</strong> Wander through <em>La Pigna</em> and visit the Madonna della Costa Sanctuary.</li>
+          <li><strong>Afternoon:</strong> Tour Villa Nobel and its peaceful gardens.</li>
+          <li><strong>Evening:</strong> Experience the glamour of the Sanremo Casino and enjoy fine dining.</li>
+        </ul>
+      </section>
+
+      <section class="hero-header-food">
+        <h2>Day 2: Coastal Beauty and Cultural Highlights</h2>
+        <ul>
+          <li><strong>Morning:</strong> Bike along the Riviera dei Fiori and relax at the beaches.</li>
+          <li><strong>Afternoon:</strong> Visit the artistic haven of Bussana Vecchia.</li>
+          <li><strong>Evening:</strong> Stroll the Old Port and enjoy a sunset dinner.</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+ </main>
+    
+ 
     <!--end of Hero section-->
 
       
@@ -128,6 +167,6 @@
   <!--end of footer section-->
 
   <!--JS Link-->
-    <script src="../../script.js" defer></script>
+    <script src="../../script.js"></script>
   </body>
 </html>
