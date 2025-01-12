@@ -327,22 +327,40 @@ header .home:hover {
     max-width: 1200px;
     animation: slideIn 1s ease-in-out;
 
-    & h3 {
+    & h2 {
         color: var(--white);
         margin-bottom: 30px;
+        font-size: 2rem;
+        text-align: center;
     }
+
 }
 
-.hero-section .grid .card .profile-img {
-    max-width: 300px;
-    width: 100%;
-    height:auto;
-    margin: 1rem auto;
-}
+.hero-section .card {
+    & .profile-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 1rem auto;
+        margin-top: 3rem;
+    }
 
-.hero-section h2 {
-    margin-bottom: 20px;
-    text-align: center;    
+    & p {
+        color: var(--white);
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    
+   & .btn {
+        background: var(--dark-violet);
+        color: var(--white);
+        border: none;
+        padding: 15px 20px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    } 
 }
 
 .about-me {
@@ -370,7 +388,6 @@ header .home:hover {
 }
 
 .card {
-  width: 100%;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(203, 34, 147, 0.1);
@@ -1084,6 +1101,18 @@ input[type=submit]:hover {
       margin: 0 auto;
     }
 
+    .hero-section .card {
+        padding: 20px;
+
+        & p {
+            font-size: 1.2rem;
+        }
+
+        & .btn {
+            font-size: 1.2rem;
+        }
+    }
+
     .blog h3 {
         font-size: 2rem;
     }
@@ -1136,9 +1165,6 @@ input[type=submit]:hover {
         width: 200px;
     }
 
-    .hero-section .grid .card a .btn {
-    font-size: 1rem;
-  }
 
     .skills-section .text {
         font-size: 1.1rem;
@@ -1253,26 +1279,17 @@ input[type=submit]:hover {
   }
 
 
-  .hero-section .grid .card img {
-    margin: 1rem auto;
-  }
+  .hero-section .card {
+        padding: 20px;
 
-  .hero-section .grid .card a .btn {
-    font-size: 1rem;
-  }
+        & p {
+            font-size: 1.2rem;
+        }
 
-  .hero-section h2 {
-    font-size: 1.5rem;
-  }
-
-  .hero-section p {
-    font-size: 1rem;
-  }
-
-  .hero-section .card img {
-    width: 100%;
-    margin: 0 auto;
-  }
+        & .btn {
+            font-size: 1.2rem;
+        }
+    }
 
   .contact h2 {
     font-size: 1.5rem;
@@ -1432,9 +1449,16 @@ input[type=submit]:hover {
     }
   }
 
-  .hero-section .grid .card a .btn {
-    font-size: 1rem;
-  }
+  .hero-section .card {
+
+        & p {
+            font-size: 1.2rem;
+        }
+
+        & .btn {
+            font-size: 1.2rem;
+        }
+    }
 
   .about-me {
     & h2 {
@@ -1525,17 +1549,16 @@ input[type=submit]:hover {
     align-items: center;
     margin: 0 auto;
   }
+
   .hero-header {
     width: 350px;
     margin: 2rem auto;
 
     & #thai-foods-content {
       width: 100%;
+      margin: 0 auto;
     }
-
-
   }
-
 
   .hero-header-food {
     width: 300px;
@@ -1561,22 +1584,15 @@ input[type=submit]:hover {
 
   }
 
-  .hero-section h2 {
-    font-size: 1.3rem;
-  }
-
-  .hero-section p {
-    font-size: 1rem;
-  }
-
-  .hero-section .grid .card a .btn {
-    font-size: 1rem;
-  }
-
+  .hero-section {
+        margin: 0 auto;
+    }
   .notification {
     font-size: 1.8rem;
   }
+
   .about-me {
+
     & h2 {
       font-size: 1.5rem;
     }
