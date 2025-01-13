@@ -271,6 +271,7 @@ header .home:hover {
 
   & img {
     max-width: 600px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     margin: 2rem auto;
