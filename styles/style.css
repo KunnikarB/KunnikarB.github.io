@@ -653,6 +653,8 @@ main {
 
   .hero-cv .text p {
     font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
   }
   
   .hero-cv .text .links {
@@ -701,7 +703,8 @@ main {
 
   .skills-section .text p {
   font-size: 1.3rem;
-  text-align: left;
+  text-align: center;
+  margin-bottom: 30px;
  }
   
   .skills-section .images {
