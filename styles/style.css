@@ -7,7 +7,7 @@
   --white: #ffffff;
   --light-grey: #edf0f1;
   --violet: #D267FE;
-  --dark-violet: #0000FF;
+  --dark-violet: #D267FE;
   --pink: #ff6bbb;
   --back: #000000; 
   --font-family: "Mansalva", serif;
@@ -341,7 +341,7 @@ header .home:hover {
 .hero-section {
     padding: 40px 20px;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 900px;
     animation: slideIn 1s ease-in-out;
 
     & h2 {
@@ -405,7 +405,7 @@ header .home:hover {
 }
 
 .card {
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  background: linear-gradient(45deg, #ff66c4 10%, #9f01ea 90%);
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(203, 34, 147, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s 
@@ -641,7 +641,7 @@ main {
 
   }
   
-  
+
   .hero-cv .text h2, .testimony-section h2, .skills-section h2 {
     font-size: 3rem;
     margin-bottom: 30px;
@@ -788,7 +788,67 @@ main {
   margin: 3rem;
 }
 .contact p {
-  font-size: 1.3rem;  
+  font-size: 1.3rem; 
+  margin-bottom: 40px; 
+}
+
+.contact .pink {
+  color: var(--pink);
+  font-size: 1.5rem;
+}
+
+.contact-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 20px;
+}
+
+/* Services Grid */
+.services-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h2 {
+  color: var(--pink);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--violet);
+  margin-bottom: 15px;
+}
+
+.service-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.service-card ul li {
+  padding: 6px 0;
+  border-bottom: 1px dotted var(--violet);
+  color: var(--pink);
+  font-size: 1.2rem;
 }
 
 /*Form section*/
