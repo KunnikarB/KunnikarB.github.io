@@ -1338,6 +1338,10 @@ input[type=submit]:hover {
     .floating-container .float-element .material-icons {
         font-size: 16px;
     }
+
+    .page-footer {
+      margin-bottom: 60px;
+    }
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -1430,6 +1434,9 @@ input[type=submit]:hover {
 
   }
 
+  .page-footer {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -1577,6 +1584,10 @@ input[type=submit]:hover {
 
   .contact p {
     font-size: 1rem;
+  }
+
+  .page-footer {
+    margin-bottom: 60px;
   }
 }
 
@@ -1808,5 +1819,8 @@ input[type=submit]:hover {
     margin: 0 auto;
   }
 
+  .page-footer {
+    margin-bottom: 60px;
+  }
 }
 
