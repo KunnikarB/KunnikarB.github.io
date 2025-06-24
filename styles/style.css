@@ -1527,6 +1527,11 @@ input[type=submit]:hover {
     }
   }
 
+  .hero-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   .hero-section .card {
 
         & p {
@@ -1665,6 +1670,10 @@ input[type=submit]:hover {
   .hero-section {
         margin: 0 auto;
     }
+
+  .hero-section h2 {
+    font-size: 1.2rem;
+  }
 
   .notification {
     font-size: 1.8rem;
